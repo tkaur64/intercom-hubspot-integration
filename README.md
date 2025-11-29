@@ -46,14 +46,39 @@ After upsert:
 ```bash
 git clone <your-repo-url>
 cd <your-folder>
+```
 
 ### 2. Install dependencies
 npm install
 
-**### 3. Create .env file**
+### 3. Create .env file
 INTERCOM_CLIENT_ID=your_intercom_client_id
 INTERCOM_CLIENT_SECRET=your_intercom_client_secret
 
 HUBSPOT_PRIVATE_APP_KEY=your_hubspot_private_app_key
+
+## 🔧 How to run
+
+### 1. Run the server
+node index.js
+
+### 2. Open browser and visit http://localhost:3000/auth/intercom
+
+### 3. Allow all access
+
+### 4. Run the APIs in the following order:
+http://localhost:3000/contacts
+http://localhost:3000/companies
+http://localhost:3000/map-contacts
+http://localhost:3000/map-companies
+http://localhost:3000/associate-contact-company
+
+## Output Screenshots
+<img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/a465047d-be47-4a0a-b483-04d05a9d5410" />
+
+<img width="1918" height="972" alt="image" src="https://github.com/user-attachments/assets/0c801615-d698-40a5-ac96-ba2f2e3de8ac" />
+
+
+
 
 
