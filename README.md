@@ -37,4 +37,23 @@ After upsert:
   - `companyIdMap`
 
 ### ✓ 5. Create Associations
-Uses:
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone the Repo
+```bash
+git clone <your-repo-url>
+cd <your-folder>
+
+**### 2. Install dependencies**
+npm install
+
+**### 3. Create .env file**
+INTERCOM_CLIENT_ID=your_intercom_client_id
+INTERCOM_CLIENT_SECRET=your_intercom_client_secret
+
+HUBSPOT_PRIVATE_APP_KEY=your_hubspot_private_app_key
+
+
