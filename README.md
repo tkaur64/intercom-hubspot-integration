@@ -67,11 +67,11 @@ node index.js
 ### 3. Allow all access
 
 ### 4. Run the APIs in the following order:
-http://localhost:3000/contacts
-http://localhost:3000/companies
-http://localhost:3000/map-contacts
-http://localhost:3000/map-companies
-http://localhost:3000/associate-contact-company
+#### i. http://localhost:3000/contacts
+#### ii. http://localhost:3000/companies
+#### iii. http://localhost:3000/map-contacts
+#### iv. http://localhost:3000/map-companies
+#### v. http://localhost:3000/associate-contact-company
 
 ## Output Screenshots
 <img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/a465047d-be47-4a0a-b483-04d05a9d5410" />
