@@ -47,7 +47,7 @@ After upsert:
 git clone <your-repo-url>
 cd <your-folder>
 
-**### 2. Install dependencies**
+### 2. Install dependencies
 npm install
 
 **### 3. Create .env file**
